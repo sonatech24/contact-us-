@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+   <!-- create the toolbar -->
+    <div class="toolbar">
+      <div class="title">
+        <img class="weblogo" src="logo.jpg" />
+        <h1 class="logo">Home Kitchen</h1>
+      </div>      
+      <ul>
+        <li><a href="../Home Page.html">Home Page</a></li>
+        <li><a href="../toolbar/about us.html">About Us</a></li>
+        <li><a href="../toolbar/Contact Us.html">Contact Us</a></li>
+      </ul>
+    </div>
+    <!-- ============================================================ -->
+    <!-- Create white box  -->
+    <div class="box">
+      <div class="contact-container">
+        <form action="https://api.web3forms.com/submit" method="POST" class="contact-left">
+          <h1>Contact Us</h1>
+          <hr />
+
+          <input type="hidden" name="access_key" value="11ce960c-b0e3-40af-9300-6ee7a64b3900" />
+          <input type="text" name="name" placeholder="Your Name" class="contact-inputs" required />
+          <input type="email" name="email" placeholder="Your Email" class="contact-inputs" required />
+          <textarea name="message" placeholder="Your Message" class="contact-inputs" required ></textarea>
+          <button type="submit">Submit</button>
+        </form>
+      </div>
+    </div>
+    <!-- ============================================================ -->
+    <!-- Create the box for the picture -->
+    <div class="contact-right">
+      <img src="contact us.avif" />
+    </div>
+  </body>
+</html>
